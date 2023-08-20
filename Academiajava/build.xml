@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="Academiajava">
+    <property environment="env"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="17"/>
+    <property name="source" value="17"/>
+    <path id="Academiajava.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Arraylist.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Até0.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Autosoma.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.AutosomaNaturais.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Contagem.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Decrescente.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Desafio1.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.DiasMes.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Divisibilidade.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Divisores.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Eleição.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.EntradaData.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Excessão.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Excessão2.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Excessãoalfabeto.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Forcombreak.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.IMC.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.ImpostoR.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Inicio.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Introdução.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Iteraçãodias.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.JFInterface.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.LISTA1.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.LISTA10.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.LISTA2.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.LISTA3.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.LISTA4.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.LISTA5.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.LISTA6.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.LISTA7.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.LISTA8.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.LISTA9.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Main.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.MaiorMenor.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.MaiorMenor3.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Media.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Media2.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.MediaAritimetica.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.MenorNumero.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.NumeroAmigo.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Numeroprimos.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.NumerosPrimos.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Paridade.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Primoscomfor.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.RegistroClientes.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.SomanumPares.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Tabuada.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.teste.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.Triangulo.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <path id="run.VerificarIdade.classpath">
+        <path refid="Academiajava.classpath"/>
+        <pathelement location="../../Desktop/RXTXcomm.jar"/>
+        <pathelement location="../../eclipse/java-2023-03/eclipse/plugins/jSerialComm-2.10.2.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="Academiajava.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="Arraylist">
+        <java classname="arraylist.Arraylist" failonerror="true" fork="yes">
+            <classpath refid="run.Arraylist.classpath"/>
+        </java>
+    </target>
+    <target name="Até0">
+        <java classname="exercicioswhile.Até0" failonerror="true" fork="yes">
+            <classpath refid="run.Até0.classpath"/>
+        </java>
+    </target>
+    <target name="Autosoma">
+        <java classname="exerciciosBreak.Autosoma" failonerror="true" fork="yes">
+            <classpath refid="run.Autosoma.classpath"/>
+        </java>
+    </target>
+    <target name="AutosomaNaturais">
+        <java classname="exercicioswhile.AutosomaNaturais" failonerror="true" fork="yes">
+            <classpath refid="run.AutosomaNaturais.classpath"/>
+        </java>
+    </target>
+    <target name="Contagem">
+        <java classname="exercicioswhile.Contagem" failonerror="true" fork="yes">
+            <classpath refid="run.Contagem.classpath"/>
+        </java>
+    </target>
+    <target name="Decrescente">
+        <java classname="exercicioswhile.Decrescente" failonerror="true" fork="yes">
+            <classpath refid="run.Decrescente.classpath"/>
+        </java>
+    </target>
+    <target name="Desafio1">
+        <java classname="arraylist.Desafio1" failonerror="true" fork="yes">
+            <classpath refid="run.Desafio1.classpath"/>
+        </java>
+    </target>
+    <target name="DiasMes">
+        <java classname="segundoexercicio.DiasMes" failonerror="true" fork="yes">
+            <classpath refid="run.DiasMes.classpath"/>
+        </java>
+    </target>
+    <target name="Divisibilidade">
+        <java classname="segundoexercicio.Divisibilidade" failonerror="true" fork="yes">
+            <classpath refid="run.Divisibilidade.classpath"/>
+        </java>
+    </target>
+    <target name="Divisores">
+        <java classname="exercicioswhile.Divisores" failonerror="true" fork="yes">
+            <classpath refid="run.Divisores.classpath"/>
+        </java>
+    </target>
+    <target name="Eleição">
+        <java classname="segundoexercicio.Eleição" failonerror="true" fork="yes">
+            <classpath refid="run.Eleição.classpath"/>
+        </java>
+    </target>
+    <target name="EntradaData">
+        <java classname="segundoexercicio.EntradaData" failonerror="true" fork="yes">
+            <classpath refid="run.EntradaData.classpath"/>
+        </java>
+    </target>
+    <target name="Excessão">
+        <java classname="exerciciosBreak.Excessão" failonerror="true" fork="yes">
+            <classpath refid="run.Excessão.classpath"/>
+        </java>
+    </target>
+    <target name="Excessão2">
+        <java classname="exerciciosBreak.Excessão2" failonerror="true" fork="yes">
+            <classpath refid="run.Excessão2.classpath"/>
+        </java>
+    </target>
+    <target name="Excessãoalfabeto">
+        <java classname="exerciciosBreak.Excessãoalfabeto" failonerror="true" fork="yes">
+            <classpath refid="run.Excessãoalfabeto.classpath"/>
+        </java>
+    </target>
+    <target name="Forcombreak">
+        <java classname="exerciciosBreak.Forcombreak" failonerror="true" fork="yes">
+            <classpath refid="run.Forcombreak.classpath"/>
+        </java>
+    </target>
+    <target name="IMC">
+        <java classname="segundoexercicio.IMC" failonerror="true" fork="yes">
+            <classpath refid="run.IMC.classpath"/>
+        </java>
+    </target>
+    <target name="ImpostoR">
+        <java classname="segundoexercicio.ImpostoR" failonerror="true" fork="yes">
+            <classpath refid="run.ImpostoR.classpath"/>
+        </java>
+    </target>
+    <target name="Inicio">
+        <java classname="empresa.Inicio" failonerror="true" fork="yes">
+            <classpath refid="run.Inicio.classpath"/>
+        </java>
+    </target>
+    <target name="Introdução">
+        <java classname="aulas.Introdução" failonerror="true" fork="yes">
+            <classpath refid="run.Introdução.classpath"/>
+        </java>
+    </target>
+    <target name="Iteraçãodias">
+        <java classname="exerciciosBreak.Iteraçãodias" failonerror="true" fork="yes">
+            <classpath refid="run.Iteraçãodias.classpath"/>
+        </java>
+    </target>
+    <target name="JFInterface">
+        <java classname="aulas.JFInterface" failonerror="true" fork="yes">
+            <classpath refid="run.JFInterface.classpath"/>
+        </java>
+    </target>
+    <target name="LISTA1">
+        <java classname="primeiroModulo.LISTA1" failonerror="true" fork="yes">
+            <classpath refid="run.LISTA1.classpath"/>
+        </java>
+    </target>
+    <target name="LISTA10">
+        <java classname="primeiroModulo.LISTA10" failonerror="true" fork="yes">
+            <classpath refid="run.LISTA10.classpath"/>
+        </java>
+    </target>
+    <target name="LISTA2">
+        <java classname="primeiroModulo.LISTA2" failonerror="true" fork="yes">
+            <classpath refid="run.LISTA2.classpath"/>
+        </java>
+    </target>
+    <target name="LISTA3">
+        <java classname="primeiroModulo.LISTA3" failonerror="true" fork="yes">
+            <classpath refid="run.LISTA3.classpath"/>
+        </java>
+    </target>
+    <target name="LISTA4">
+        <java classname="primeiroModulo.LISTA4" failonerror="true" fork="yes">
+            <classpath refid="run.LISTA4.classpath"/>
+        </java>
+    </target>
+    <target name="LISTA5">
+        <java classname="primeiroModulo.LISTA5" failonerror="true" fork="yes">
+            <classpath refid="run.LISTA5.classpath"/>
+        </java>
+    </target>
+    <target name="LISTA6">
+        <java classname="primeiroModulo.LISTA6" failonerror="true" fork="yes">
+            <classpath refid="run.LISTA6.classpath"/>
+        </java>
+    </target>
+    <target name="LISTA7">
+        <java classname="primeiroModulo.LISTA7" failonerror="true" fork="yes">
+            <classpath refid="run.LISTA7.classpath"/>
+        </java>
+    </target>
+    <target name="LISTA8">
+        <java classname="primeiroModulo.LISTA8" failonerror="true" fork="yes">
+            <classpath refid="run.LISTA8.classpath"/>
+        </java>
+    </target>
+    <target name="LISTA9">
+        <java classname="primeiroModulo.LISTA9" failonerror="true" fork="yes">
+            <classpath refid="run.LISTA9.classpath"/>
+        </java>
+    </target>
+    <target name="Main">
+        <java classname="aulas.Main" failonerror="true" fork="yes">
+            <classpath refid="run.Main.classpath"/>
+        </java>
+    </target>
+    <target name="MaiorMenor">
+        <java classname="segundoexercicio.MaiorMenor" failonerror="true" fork="yes">
+            <classpath refid="run.MaiorMenor.classpath"/>
+        </java>
+    </target>
+    <target name="MaiorMenor3">
+        <java classname="segundoexercicio.MaiorMenor3" failonerror="true" fork="yes">
+            <classpath refid="run.MaiorMenor3.classpath"/>
+        </java>
+    </target>
+    <target name="Media">
+        <java classname="segundoexercicio.Media" failonerror="true" fork="yes">
+            <classpath refid="run.Media.classpath"/>
+        </java>
+    </target>
+    <target name="Media2">
+        <java classname="segundoexercicio.Media2" failonerror="true" fork="yes">
+            <classpath refid="run.Media2.classpath"/>
+        </java>
+    </target>
+    <target name="MediaAritimetica">
+        <java classname="segundoexercicio.MediaAritimetica" failonerror="true" fork="yes">
+            <classpath refid="run.MediaAritimetica.classpath"/>
+        </java>
+    </target>
+    <target name="MenorNumero">
+        <java classname="exercicioswhile.MenorNumero" failonerror="true" fork="yes">
+            <classpath refid="run.MenorNumero.classpath"/>
+        </java>
+    </target>
+    <target name="NumeroAmigo">
+        <java classname="segundoexercicio.NumeroAmigo" failonerror="true" fork="yes">
+            <classpath refid="run.NumeroAmigo.classpath"/>
+        </java>
+    </target>
+    <target name="Numeroprimos">
+        <java classname="exercicioswhile.Numeroprimos" failonerror="true" fork="yes">
+            <classpath refid="run.Numeroprimos.classpath"/>
+        </java>
+    </target>
+    <target name="NumerosPrimos">
+        <java classname="exercicioswhile.NumerosPrimos" failonerror="true" fork="yes">
+            <classpath refid="run.NumerosPrimos.classpath"/>
+        </java>
+    </target>
+    <target name="Paridade">
+        <java classname="segundoexercicio.Paridade" failonerror="true" fork="yes">
+            <classpath refid="run.Paridade.classpath"/>
+        </java>
+    </target>
+    <target name="Primoscomfor">
+        <java classname="exercicioswhile.Primoscomfor" failonerror="true" fork="yes">
+            <classpath refid="run.Primoscomfor.classpath"/>
+        </java>
+    </target>
+    <target name="RegistroClientes">
+        <java classname="exerciciosPOO.RegistroClientes" failonerror="true" fork="yes">
+            <classpath refid="run.RegistroClientes.classpath"/>
+        </java>
+    </target>
+    <target name="SomanumPares">
+        <java classname="exercicioswhile.SomanumPares" failonerror="true" fork="yes">
+            <classpath refid="run.SomanumPares.classpath"/>
+        </java>
+    </target>
+    <target name="Tabuada">
+        <java classname="exercicioswhile.Tabuada" failonerror="true" fork="yes">
+            <classpath refid="run.Tabuada.classpath"/>
+        </java>
+    </target>
+    <target name="teste">
+        <java classname="segundoexercicio.teste" failonerror="true" fork="yes">
+            <classpath refid="run.teste.classpath"/>
+        </java>
+    </target>
+    <target name="Triangulo">
+        <java classname="segundoexercicio.Triangulo" failonerror="true" fork="yes">
+            <classpath refid="run.Triangulo.classpath"/>
+        </java>
+    </target>
+    <target name="VerificarIdade">
+        <java classname="segundoexercicio.VerificarIdade" failonerror="true" fork="yes">
+            <classpath refid="run.VerificarIdade.classpath"/>
+        </java>
+    </target>
+</project>
