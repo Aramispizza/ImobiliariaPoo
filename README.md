@@ -7,3 +7,6 @@ Programa com 4 funçôes v1.0
 2. Consultar Imovel
 3. Consultar lista de imoveis
 4. Registrar venda Imovel
+--------------------------------------------------
+Instruções:
+•Para gerenciar o sistema utilizar o arquivo Gestão de imoveis.
