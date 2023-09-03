@@ -48,9 +48,22 @@ public class GestãoImoveis {
 			String tipo = in2.nextLine();
 			System.out.println("Digite o numero de comodos:");	
 			int com = in.nextInt();
+			System.out.println("Digite a area do casa:");	
+			double area = in.nextDouble();
 			
-		Casa home = new Casa(ender,preco ,tipo,com);
-		ademi.adicionarConstrucao(home);
+		Casa home = new Casa(ender,preco ,tipo,com,area)
+				{
+			
+			public void removerConstrucao(Construção construcao) {
+				
+			}
+			public void adicionarConstrucao(Construção construcao) {	
+			
+			}
+			};
+			
+			home.adicionarConstrucao(home);
+			ademi.adicionarConstrucao(home);
 		break;
 		}
 		case 2:
@@ -63,8 +76,18 @@ public class GestãoImoveis {
 			String tipo1 = in2.nextLine();
 			System.out.println("Digite o numero de comodos:");	
 			int com1 = in.nextInt();	
-		Loja vitrine = new Loja(ender1,preco1 ,tipo1,com1);	
-		ademi.adicionarConstrucao(vitrine);
+			System.out.println("Digite a area da loja:");	
+			double area1 = in.nextDouble();
+			
+			Loja vitrine = new Loja(ender1,preco1 ,tipo1,com1, area1) {
+
+				public void adicionarConstrucao(Construção construcao) {		
+				}
+				public void removerConstrucao(Construção construcao) {
+				}
+				};
+				ademi.adicionarConstrucao(vitrine);
+				
 		break;
 		}
 		case 3:
@@ -76,9 +99,22 @@ public class GestãoImoveis {
 			System.out.println("Digite o tipo do imovel Ex: CASA, LOJA OU PREDIO.");	
 			String tipo2 = in2.nextLine();
 			System.out.println("Digite o numero de comodos:");	
-			int com2 = in.nextInt();	
-		Predio Andar = new Predio(ender2,preco2 ,tipo2,com2);
-		ademi.adicionarConstrucao(Andar);
+			int com2 = in.nextInt();
+			System.out.println("Digite a area do Apartamento:");	
+			double area2 = in.nextDouble();
+			
+		Predio Andar = new Predio(ender2,preco2 ,tipo2,com2,area2) {
+
+			public void adicionarConstrucao(Construção construcao) {
+			
+			}
+
+			public void removerConstrucao(Construção construcao) {	
+			}
+			};
+			
+			ademi.adicionarConstrucao(Andar);		
+			
 		break;
 		}
 		}		  
@@ -106,7 +142,26 @@ public class GestãoImoveis {
 		}
 	   case 3:
 		  {
-		  ademi.listarConstrucoes();	  
+			  String index3 = ("""  
+	 				   1- Listar Imoveis
+	 				   2- Consultar area catalogada""");	   
+			   System.out.println(index3);
+			int opcao3 = in.nextInt();
+			
+			switch(opcao3)
+			{
+			case 1:
+			{
+			ademi.listarConstrucoes();	  
+			break;
+			}
+			case 2:
+			{
+			ademi.informarArea();	 	
+			break; 
+			}
+			}
+		  
 		 break;
 		  }
 	   case 4:

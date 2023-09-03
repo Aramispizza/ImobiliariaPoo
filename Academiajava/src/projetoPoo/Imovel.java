@@ -6,27 +6,34 @@ private	String endereço;
 private	double preço;
 private String tipo;	
 private int comodo;
-   public Imovel(String endereço, double preço, String tipo, int comodo)
+private double area;
+  
+
+	public Imovel(String endereço, double preço, String tipo, int comodo, double area)
    {
 	this.setEndereço(endereço);   
     this.setPreço(preço);
     this.setTipo(tipo);
     this.setComodos(comodo);
-    }
+    this.setArea(area); 
+   }
 
 	public void listarConstrucoes() {
-	
+		
 	}
 	
-	public void informarArea() {
+	public double informarArea() {
 	
+	return this.getArea();
 	}
 
 	public String TipoConstru()
 	{
 	return this.getTipo();	
-	
 	}
+	
+	
+	
 	public int Comodos()
 	{
 	return this.getComodos();
@@ -69,5 +76,13 @@ private int comodo;
 
 	public void setComodos(int comodo) {
 		this.comodo = comodo;
+	}
+
+	public double getArea() {
+		return area;
+	}
+
+	public void setArea(double area) {
+		this.area = area;
 	}
 }

@@ -3,7 +3,7 @@ package projetoPoo;
 import java.util.ArrayList;
 import java.util.List;
 
-class Imobiliaria implements Construção
+class Imobiliaria
 {
     
 	private List<Imovel> ImoveisRegistro = new ArrayList<>();
@@ -43,7 +43,12 @@ class Imobiliaria implements Construção
 	}
 	
 	public void informarArea() {
-	
+		double somarareas = 0.0;
+		for(Imovel Imovel : getImoveisRegistro())
+		{	
+		  somarareas += Imovel.getArea();  
+		}
+		System.out.println("Area total de imoveis é:" + somarareas + "M²");
 	}
 
 	
@@ -57,11 +62,6 @@ class Imobiliaria implements Construção
 		ImoveisRegistro = imoveisRegistro;
 	}
 
-	@Override
-	public void removerConstrucao(Imovel imovel) {
-		// TODO Auto-generated method stub
-		
-	}
 
 
 

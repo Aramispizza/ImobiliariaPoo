@@ -2,8 +2,8 @@ package projetoPoo;
 
 public interface Construção {
 
-	void adicionarConstrucao(Imovel imovel);
-	void removerConstrucao(Imovel imovel);
+	void adicionarConstrucao(Construção construcao);
+	void removerConstrucao(Construção construcao);
 	void listarConstrucoes();
-	void informarArea();
+	double informarArea();
 }
